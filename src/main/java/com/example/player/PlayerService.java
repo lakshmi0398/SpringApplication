@@ -36,10 +36,11 @@ public class PlayerService implements PlayerRepository {
 
     @Override
     public ArrayList<Player> PlayersData() {
-        
-        Collection <Player> playerCollection = team.values();
+
+        Collection<Player> playerCollection = team.values();
         ArrayList<Player> players = new ArrayList<>(playerCollection);
         return players;
+
     }
 
     @Override
